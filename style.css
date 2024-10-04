@@ -1,0 +1,108 @@
+.default {
+    color: white;
+}
+body {
+    background-image: url(img/background.png); /*Fondo de la página*/
+}
+.handjet {
+    font-family: handjet;
+    font-size: xx-large;
+}
+.prueba{
+    text-align: center;
+    border-bottom: 5px solid;
+    border-top: 5px solid;
+    border-color: cyan;
+    border-radius: 3px;
+
+}
+.centrar {
+    text-align: center;
+}
+h1:hover {
+    font-weight: lighter;
+}
+.justify {
+    text-align: justify;
+}
+.a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    border: dotted;
+    width: 200px;
+    margin-top: 3%;
+    margin-bottom: 0%;
+    margin-left: 2%;
+    margin-right: 8%;
+}
+.a:hover {
+    text-decoration: underline;
+    text-decoration-style:dotted ;
+    color: white;
+    display: inline-block;
+    border: solid;
+    width: 200px;
+    margin-top: 3%;
+    margin-bottom: 0%;
+    margin-left: 2%;
+    margin-right: 8%;
+}
+
+.b {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    border: dotted;
+    width: 988px;
+    margin-top: 3%;
+    margin-bottom: 0%;
+    margin-left: 2%;
+    margin-right: 0%;
+}
+.b:hover {
+    text-decoration: underline;
+    text-decoration-style:dotted ;
+    color: white;
+    display: inline-block;
+    border: solid;
+    width: 988px;
+    margin-top: 3%;
+    margin-bottom: 0%;
+    margin-left: 2%;
+    margin-right: 8%;
+}
+.arrow {
+    position: fixed;
+    bottom: 10px;
+    width: 75px;
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+.arrow:hover {
+    animation: fade 1s infinite alternate;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+.provincia {
+    text-decoration: none;
+    font-size: 180%;
+    font-family: handjet;
+    padding-left: 2%;
+    margin-right: 5%;
+ }
+.provincia:hover {
+    text-decoration: underline;
+    font-size: 250%;
+    font-family: handjet;
+    padding-left: 2%;
+    margin-right: 5%;
+ }
