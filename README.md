@@ -15,4 +15,4 @@ This code is in Spanish and is quite simple. Feel free to use it!
 To use this repository, simply clone the project:
 
 ```bash
-git clone <REPOSITORY_URL>
+git clone https://github.com/Losjonis/weatherbroadcast-html.git
